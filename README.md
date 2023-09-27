@@ -5,7 +5,7 @@
   Matías Ezequiel Correa - Profile Search | Github API
 </h1>
 <p align="center">
-  Neste projeto <a href="https://matias-ezequiel-correa.github.io/projeto-xmen/" target="_blank">Profile Search | Github API,</a> utiliza-se a API do GitHub, em que o usuário pode fazer buscas de usuários do GitHub, feito com HTML, CSS e JavaScript, atualmente hospedado no <a href="https://github.com/matias-ezequiel-correa">GitHub-Pages</a>.
+  Neste projeto <a href="https://matias-ezequiel-correa.github.io/projeto-fetch-github-api/" target="_blank">Profile Search | Github API,</a> utiliza-se a API do GitHub, em que o usuário pode fazer buscas de usuários do GitHub, feito com HTML, CSS e JavaScript, atualmente hospedado no <a href="https://github.com/matias-ezequiel-correa">GitHub-Pages</a>.
 </p>
 
 ## Desing: 
