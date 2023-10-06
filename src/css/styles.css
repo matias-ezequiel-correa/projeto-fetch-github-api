@@ -27,16 +27,17 @@ main {
 .devicon-github-original{
   font-size: 60px;
   margin-bottom: 30px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .section{
   padding: 70px 0;
+  border-top: 1px solid #ccc;
 }
 
 .container {
-  width: 60%; /* se for uma tela menor que 980px vai se adaptar a 70% */
-  max-width: 960px; /* quando chegar em 980px para de aumentar */
+  width: 60%; 
+  max-width: 960px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
   background-color: #fff;
   display: flex;
@@ -80,7 +81,7 @@ main {
 }
 
 .container header #btn-search:hover {
-  background-color: hotpink;
+  background-color: #169843;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -99,14 +100,14 @@ main {
 }
 
 .container .profile-data .info .data{
-  padding: 40px;
+  padding: 30px;
   width: 50%;
 }
 
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 5px solid #169843;
 }
 
 .container .profile-data .info h1{
@@ -119,6 +120,30 @@ main {
   font-size: 15px;  
   font-weight: 400;
   line-height: 23px;
+}
+
+.container .profile-data .counters{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.container .profile-data .follows h3{
+  margin-bottom: 10px;
+}
+
+.container .profile-data .counters span{
+  display: block;
+  color: #fff;
+  padding: 5px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.container .profile-data .counters .follows span{
+  background-color: #169843;
 }
 
 /* REPOSITORIES */
@@ -144,9 +169,52 @@ main {
 }
 
 .container .profile-data .repositories ul li a:hover{
-  background-color:hotpink;
+  background-color:#1DB954;
   color: #fff
 }
+
+.container .profile-data .repositories ul li a h4 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.container .profile-data .repositories ul li a i {
+  display: inline-block;
+  background-color:  #169843;
+  font-style: normal;
+  padding: 5px;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+/* EVENTS */
+.container .profile-data .events ul{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.container .profile-data .events h2{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container .profile-data .events ul li {
+  width: 100%;  
+  margin: 5px 0;
+}
+
+.container .profile-data .events ul li strong{
+  font-weight: 700;
+}
+
+.container .profile-data .events ul li h4,
+.container .profile-data .events ul li p{
+  margin-bottom: 10px;
+}
+
 
 .container .profile-data.hide{
   display: none;
